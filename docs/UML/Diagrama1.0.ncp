@@ -1,0 +1,56 @@
+<Project>
+  <Name>sem Título</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>sem Título</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>GerenciadorDeCerimonias</Name>
+        <Access>Public</Access>
+        <Location left="461" top="214" />
+        <Size width="298" height="230" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">List&lt;DadosDoEvento&gt; AgendarParaCinquentaPessoas</Member>
+        <Member type="Field">List&lt;DadosDoEvento&gt; AgendarParaCemPessoas</Member>
+        <Member type="Field">List&lt;DadosDoEvento&gt; AgendarParaDuzentasPessoas</Member>
+        <Member type="Field">List&lt;DadosDoEvento&gt; AgendaParaQuinhantasPessoas</Member>
+        <Member type="Method">public void AgendarCerimonia()</Member>
+        <Member type="Method">public int ValidarQtdParticipantes()</Member>
+        <Member type="Method">public bool VerificarDisponibilidadeEspacoCemPessoas()</Member>
+        <Member type="Method">public bool VerificarDisponibilidadeEspacoDuzentasPessoas()</Member>
+        <Member type="Method">public void MostrarCerimoniasAgendadas()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>DadosDoEvento</Name>
+        <Access>Public</Access>
+        <Location left="901" top="214" />
+        <Size width="368" height="281" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">DateTime DataReservada</Member>
+        <Member type="Field">public DateTime DataDaCerimonia</Member>
+        <Member type="Field">public StatusEspaco StatusDoEspaco</Member>
+        <Member type="Field">public CapacidadeEspaco CapacidadeDoEspaco</Member>
+        <Member type="Field">int QtdDeParticipantes</Member>
+        <Member type="Method">public void EncontrarPrimeiraDataValida()</Member>
+        <Member type="Method">public void ObterProximaDataValida()</Member>
+        <Member type="Method">public void RepetirDataAnterior()</Member>
+        <Member type="Method">public int AvancarParaProximaData()</Member>
+        <Member type="Method">public void ArmazenarQtdParticipantes(int qtdParticipantes)</Member>
+        <Member type="Method">public void ArmazernarCapacidadeDoEspaco(int qtdParticipantes)</Member>
+        <Member type="Method">public void ReservarEspaco(agenda DadosDoEvento, int qtdParticipantes)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Association" first="1" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Composition</AssociationType>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>
