@@ -7,33 +7,93 @@
       <Entity type="Class">
         <Name>GerenciadorDeCerimonias</Name>
         <Access>Public</Access>
-        <Location left="461" top="214" />
+        <Location left="298" top="81" />
         <Size width="298" height="230" />
         <Collapsed>False</Collapsed>
-        <Member type="Field">List&lt;DadosDoEvento&gt; AgendarParaCinquentaPessoas</Member>
-        <Member type="Field">List&lt;DadosDoEvento&gt; AgendarParaCemPessoas</Member>
-        <Member type="Field">List&lt;DadosDoEvento&gt; AgendarParaDuzentasPessoas</Member>
-        <Member type="Field">List&lt;DadosDoEvento&gt; AgendaParaQuinhantasPessoas</Member>
+        <Member type="Field">List&lt;Espaco&gt; AgendarParaCinquentaPessoas</Member>
+        <Member type="Field">List&lt;Espaco&gt; AgendarParaCemPessoas</Member>
+        <Member type="Field">List&lt;Espaco&gt; AgendarParaDuzentasPessoas</Member>
+        <Member type="Field">List&lt;Espaco&gt; AgendaParaQuinhantasPessoas</Member>
         <Member type="Method">public void AgendarCerimonia()</Member>
         <Member type="Method">public int ValidarQtdParticipantes()</Member>
-        <Member type="Method">public bool VerificarDisponibilidadeEspacoCemPessoas()</Member>
-        <Member type="Method">public bool VerificarDisponibilidadeEspacoDuzentasPessoas()</Member>
         <Member type="Method">public void MostrarCerimoniasAgendadas()</Member>
         <Modifier>None</Modifier>
       </Entity>
       <Entity type="Class">
-        <Name>DadosDoEvento</Name>
+        <Name>Espaco</Name>
         <Access>Public</Access>
-        <Location left="901" top="214" />
-        <Size width="368" height="281" />
+        <Location left="750" top="56" />
+        <Size width="368" height="332" />
         <Collapsed>False</Collapsed>
         <Member type="Field">DateTime DataReservada</Member>
         <Member type="Field">public DateTime DataDaCerimonia</Member>
         <Member type="Field">public StatusEspaco StatusDoEspaco</Member>
         <Member type="Field">public CapacidadeEspaco CapacidadeDoEspaco</Member>
         <Member type="Field">int QtdDeParticipantes</Member>
-        <Member type="Method">public void EncontrarPrimeiraDataValida()</Member>
-        <Member type="Method">public void ObterProximaDataValida()</Member>
+        <Member type="Field">bool statusEspaco</Member>
+        <Member type="Field">int capacidadeEspaco</Member>
+        <Member type="Method">public void EncontrarDataValida()</Member>
+        <Member type="Method">public void RepetirDataAnterior()</Member>
+        <Member type="Method">public int AvancarParaProximaData()</Member>
+        <Member type="Method">public void ArmazenarQtdParticipantes(int qtdParticipantes)</Member>
+        <Member type="Method">public void ArmazernarCapacidadeDoEspaco(int qtdParticipantes)</Member>
+        <Member type="Method">public void ReservarEspaco(agenda DadosDoEvento, int qtdParticipantes)</Member>
+        <Member type="Method">public bool VerificarDisponibilidadeEspaco()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EspacoCiquentaPessoas</Name>
+        <Access>Public</Access>
+        <Location left="44" top="536" />
+        <Size width="390" height="240" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public bool VerificarDisponibilidadeEspaco()</Member>
+        <Member type="Method">public void EncontrarDataValida()</Member>
+        <Member type="Method">public void RepetirDataAnterior()</Member>
+        <Member type="Method">public int AvancarParaProximaData()</Member>
+        <Member type="Method">public void ArmazenarQtdParticipantes(int qtdParticipantes)</Member>
+        <Member type="Method">public void ArmazernarCapacidadeDoEspaco(int qtdParticipantes)</Member>
+        <Member type="Method">public void ReservarEspaco(agenda DadosDoEvento, int qtdParticipantes)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EspacoCemPessoas</Name>
+        <Access>Public</Access>
+        <Location left="462" top="536" />
+        <Size width="398" height="240" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public bool VerificarDisponibilidadeEspaco()</Member>
+        <Member type="Method">public void EncontrarDataValida()</Member>
+        <Member type="Method">public void RepetirDataAnterior()</Member>
+        <Member type="Method">public int AvancarParaProximaData()</Member>
+        <Member type="Method">public void ArmazenarQtdParticipantes(int qtdParticipantes)</Member>
+        <Member type="Method">public void ArmazernarCapacidadeDoEspaco(int qtdParticipantes)</Member>
+        <Member type="Method">public void ReservarEspaco(agenda DadosDoEvento, int qtdParticipantes)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EspacoDuzentasPessoas</Name>
+        <Access>Public</Access>
+        <Location left="905" top="536" />
+        <Size width="386" height="240" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public bool VerificarDisponibilidadeEspaco()</Member>
+        <Member type="Method">public void EncontrarDataValida()</Member>
+        <Member type="Method">public void RepetirDataAnterior()</Member>
+        <Member type="Method">public int AvancarParaProximaData()</Member>
+        <Member type="Method">public void ArmazenarQtdParticipantes(int qtdParticipantes)</Member>
+        <Member type="Method">public void ArmazernarCapacidadeDoEspaco(int qtdParticipantes)</Member>
+        <Member type="Method">public void ReservarEspaco(agenda DadosDoEvento, int qtdParticipantes)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>EspacoQuinhentasPessoas</Name>
+        <Access>Public</Access>
+        <Location left="1359" top="536" />
+        <Size width="385" height="240" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public bool VerificarDisponibilidadeEspaco()</Member>
+        <Member type="Method">public void EncontrarDataValida()</Member>
         <Member type="Method">public void RepetirDataAnterior()</Member>
         <Member type="Method">public int AvancarParaProximaData()</Member>
         <Member type="Method">public void ArmazenarQtdParticipantes(int qtdParticipantes)</Member>
@@ -44,12 +104,42 @@
     </Entities>
     <Relationships>
       <Relationship type="Association" first="1" second="0">
-        <Label>
-        </Label>
         <StartOrientation>Horizontal</StartOrientation>
         <EndOrientation>Horizontal</EndOrientation>
         <Direction>Unidirectional</Direction>
         <AssociationType>Composition</AssociationType>
+      </Relationship>
+      <Relationship type="Generalization" first="2" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>782</X>
+          <Y>414</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="3" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="True">
+          <X>805</X>
+          <Y>511</Y>
+        </BendPoint>
+        <BendPoint relativeToStartShape="False">
+          <X>883</X>
+          <Y>413</Y>
+        </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="4" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="5" second="1">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+        <BendPoint relativeToStartShape="False">
+          <X>1073</X>
+          <Y>416</Y>
+        </BendPoint>
       </Relationship>
     </Relationships>
   </ProjectItem>
