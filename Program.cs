@@ -6,8 +6,26 @@
         {
             GerenciadorDeCerimonias agendar = new GerenciadorDeCerimonias();
 
+
+            while (true)
+            {
+                int qtdPartcipantes;
+
+                Console.WriteLine("Digite a quantidade de pessoas que irà participar do evento");
+                while (true)
+                {
+                    if (int.TryParse(Console.ReadLine(), out qtdPartcipantes) && (qtdPartcipantes >= 2) && (qtdPartcipantes <= 500)) break;
+                    else { Console.WriteLine("Digite uma quantidade válida de convidados"); }
+                }
+                agendar.AgendarCerimonia(qtdPartcipantes);
+                
+            }
+
+
+
+
             // teste para 50 pessoas
-            for(int i = 0; i < 4; i++)
+           /* for(int i = 0; i < 4; i++)
             {
                 agendar.AgendarCerimonia();
             }
@@ -33,6 +51,7 @@
                 agendar.AgendarCerimonia();
             }
             agendar.MostrarCerimoniasAgendadas();
+           */
         }
     }
 }
