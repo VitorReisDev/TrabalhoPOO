@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+<<<<<<< HEAD
 using trabalhoPOOList;
+=======
+>>>>>>> 02f4e516f08b895a2bf4a5b4255010317837f06c
 
 namespace trabalhoPOO
 {
@@ -13,12 +16,17 @@ namespace trabalhoPOO
         
         EspacoDuzentos EspacoDuzentos;
 
+<<<<<<< HEAD
         private static int cont;
+=======
+        private int cont;
+>>>>>>> 02f4e516f08b895a2bf4a5b4255010317837f06c
         public ReservaDuzentos()
         {
             this.EspacoDuzentos = new EspacoDuzentos();
         }
 
+<<<<<<< HEAD
 public override void reservar()
 {
     DateTime dataReserva = EncontrarDataDisponivel();
@@ -44,6 +52,25 @@ public override void reservar()
 }
 
 
+=======
+        public override void reservar()
+        {
+            DateTime dataTemp = EncontrarDataDisponivel();
+            if (Reserva.DataDaUltimaReserva < dataTemp && cont <= 2)
+            {
+                this.EspacoDuzentas.SetDataReservada(EncontrarDataDisponivel());
+                Reserva.DataDaUltimaReserva = EncontrarDataDisponivel();
+                this.EspacoDuzentos.MostrarReservas();
+                cont++;
+            }
+            else
+            {
+                this.EspacoDuzentos.SetDataReservada(ObterProximaData());
+                Reserva.DataDaUltimaReserva = ObterProximaData();
+                this.EspacoDuzentos.MostrarReservas();
+            }
+        }
+>>>>>>> 02f4e516f08b895a2bf4a5b4255010317837f06c
         protected override DateTime ObterProximaData()
         {
             DateTime dataTemp = ReservaDuzentos.DataDaUltimaReserva;

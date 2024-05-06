@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-<<<<<<< HEAD
 
 namespace trabalhoPOOList
 {
@@ -11,6 +10,8 @@ namespace trabalhoPOOList
     {
         public EspacoCem() 
             : base ( EnunsEspaco.CapacidadeEspaco.Cem)
-=======
+        { 
+
+        }
     }
 }
