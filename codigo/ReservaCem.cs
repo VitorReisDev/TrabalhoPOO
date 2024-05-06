@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 namespace trabalhoPOOList
 {
     
-    public class ReservaCinquenta : Reserva
+    public class ReservaCem : Reserva
     {
-        EspacoCinquenta EspacoCinquenta;
+        EspacoCem EspacoCem;
 
-        public ReservaCinquenta()
+        public ReservaCem()
         {
-            this.EspacoCinquenta = new EspacoCinquenta();
+            this.EspacoCem = new EspacoCem();
         }
 
         public override void reservar()
@@ -21,20 +21,20 @@ namespace trabalhoPOOList
             DateTime dataTemp = EncontrarDataDisponivel();
             if (Reserva.DataDaUltimaReserva < dataTemp)
             {
-                this.EspacoCinquenta.SetDataReservada(EncontrarDataDisponivel());
+                this.EspacoCem.SetDataReservada(EncontrarDataDisponivel());
                 Reserva.DataDaUltimaReserva = EncontrarDataDisponivel();
-                this.EspacoCinquenta.MostrarReservas();
+                this.EspacoCem.MostrarReservas();
             }
             else
             {
-                this.EspacoCinquenta.SetDataReservada(ObterProximaData());
+                this.EspacoCem.SetDataReservada(ObterProximaData());
                 Reserva.DataDaUltimaReserva = ObterProximaData();
-                this.EspacoCinquenta.MostrarReservas();
+                this.EspacoCem.MostrarReservas();
             }
         }
         protected override DateTime ObterProximaData()
         {
-            DateTime dataTemp = ReservaCinquenta.DataDaUltimaReserva;
+            DateTime dataTemp = ReservaCem.DataDaUltimaReserva;
 
             if (dataTemp.DayOfWeek == DayOfWeek.Friday)
             {

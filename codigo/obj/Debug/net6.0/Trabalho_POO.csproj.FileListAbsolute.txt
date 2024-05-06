@@ -1,0 +1,15 @@
+C:\Users\Vitor\Desktop\Trabalho_POO\bin\Debug\net6.0\Trabalho_POO.exe
+C:\Users\Vitor\Desktop\Trabalho_POO\bin\Debug\net6.0\Trabalho_POO.deps.json
+C:\Users\Vitor\Desktop\Trabalho_POO\bin\Debug\net6.0\Trabalho_POO.runtimeconfig.json
+C:\Users\Vitor\Desktop\Trabalho_POO\bin\Debug\net6.0\Trabalho_POO.dll
+C:\Users\Vitor\Desktop\Trabalho_POO\bin\Debug\net6.0\Trabalho_POO.pdb
+C:\Users\Vitor\Desktop\Trabalho_POO\obj\Debug\net6.0\Trabalho_POO.csproj.AssemblyReference.cache
+C:\Users\Vitor\Desktop\Trabalho_POO\obj\Debug\net6.0\Trabalho_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitor\Desktop\Trabalho_POO\obj\Debug\net6.0\Trabalho_POO.AssemblyInfoInputs.cache
+C:\Users\Vitor\Desktop\Trabalho_POO\obj\Debug\net6.0\Trabalho_POO.AssemblyInfo.cs
+C:\Users\Vitor\Desktop\Trabalho_POO\obj\Debug\net6.0\Trabalho_POO.csproj.CoreCompileInputs.cache
+C:\Users\Vitor\Desktop\Trabalho_POO\obj\Debug\net6.0\Trabalho_POO.dll
+C:\Users\Vitor\Desktop\Trabalho_POO\obj\Debug\net6.0\refint\Trabalho_POO.dll
+C:\Users\Vitor\Desktop\Trabalho_POO\obj\Debug\net6.0\Trabalho_POO.pdb
+C:\Users\Vitor\Desktop\Trabalho_POO\obj\Debug\net6.0\Trabalho_POO.genruntimeconfig.cache
+C:\Users\Vitor\Desktop\Trabalho_POO\obj\Debug\net6.0\ref\Trabalho_POO.dll

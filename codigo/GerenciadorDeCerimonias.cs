@@ -4,16 +4,20 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using trabalhoPOO;
 
 namespace trabalhoPOOList
 {
     public class GerenciadorDeCerimonias
     {
         private List<ReservaCinquenta> AgendaParaCinquentaPessoas;
+        private List<ReservaDuzentos> AgendaParaDuzentosPessoas;
+
       
         public GerenciadorDeCerimonias()
         {
             this.AgendaParaCinquentaPessoas = new List<ReservaCinquenta>();
+            this.AgendaParaDuzentosPessoas = new List<ReservaDuzentos>();
         }
 
         public void AgendarCerimonia(int qtdPessoas) //Agenda a cerimônia no espaço mais apropriado
@@ -30,7 +34,9 @@ namespace trabalhoPOOList
             }
             else if (qtdPessoas > 100 && qtdPessoas <= 200) // Agendamento do espaço para 101 à 200 pessoas.
             {
-
+                ReservaDuzentos agenda = new ReservaDuzentos();
+                agenda.reservar();
+                this.AgendaParaDuzentosPessoas.Add(agenda);
             }
             else if (qtdPessoas > 200 && qtdPessoas <= 500) // Agendamento do espaço para 201 à 500 pessoas.
             {

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using trabalhoPOO;
 
 namespace trabalhoPOOList
 {
@@ -30,6 +31,7 @@ namespace trabalhoPOOList
                 this.EspacoCinquenta.SetDataReservada(ObterProximaData());
                 Reserva.DataDaUltimaReserva = ObterProximaData();
                 this.EspacoCinquenta.MostrarReservas();
+                
             }
         }
         protected override DateTime ObterProximaData()
