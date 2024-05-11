@@ -11,6 +11,7 @@ namespace trabalhoPOOList
     public class GerenciadorDeCerimonias
     {
         private List<ReservaCinquenta> AgendaParaCinquentaPessoas;
+        private List<ReservaCem> AgendaParaCemPessoas;
         private List<ReservaDuzentos> AgendaParaDuzentosPessoas;
         private List<ReservaQuinhentos> AgendaParaQuinhentosPessoas;
 
@@ -18,6 +19,7 @@ namespace trabalhoPOOList
         public GerenciadorDeCerimonias()
         {
             this.AgendaParaCinquentaPessoas = new List<ReservaCinquenta>();
+            this.AgendaParaCemPessoas = new List<ReservaCem>();
             this.AgendaParaDuzentosPessoas = new List<ReservaDuzentos>();
             this.AgendaParaQuinhentosPessoas = new List<ReservaQuinhentos>();
         }
@@ -32,7 +34,9 @@ namespace trabalhoPOOList
             }
             else if(qtdPessoas > 50 && qtdPessoas <= 100) // Agendamento do espaço para 51 à 100 pessoas.
             {
-
+                ReservaCem agenda = new ReservaCem();
+                agenda.reservar();
+                this.AgendaParaCemPessoas.Add(agenda);
             }
             else if (qtdPessoas > 100 && qtdPessoas <= 200) // Agendamento do espaço para 101 à 200 pessoas.
             {
