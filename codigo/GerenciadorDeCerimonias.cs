@@ -12,12 +12,14 @@ namespace trabalhoPOOList
     {
         private List<ReservaCinquenta> AgendaParaCinquentaPessoas;
         private List<ReservaDuzentos> AgendaParaDuzentosPessoas;
+        private List<ReservaQuinhentos> AgendaParaQuinhentosPessoas;
 
-      
+
         public GerenciadorDeCerimonias()
         {
             this.AgendaParaCinquentaPessoas = new List<ReservaCinquenta>();
             this.AgendaParaDuzentosPessoas = new List<ReservaDuzentos>();
+            this.AgendaParaQuinhentosPessoas = new List<ReservaQuinhentos>();
         }
 
         public void AgendarCerimonia(int qtdPessoas) //Agenda a cerimônia no espaço mais apropriado
@@ -40,6 +42,9 @@ namespace trabalhoPOOList
             }
             else if (qtdPessoas > 200 && qtdPessoas <= 500) // Agendamento do espaço para 201 à 500 pessoas.
             {
+                ReservaQuinhentos agenda = new ReservaQuinhentos();
+                agenda.reservar();
+                this.AgendaParaQuinhentosPessoas.Add(agenda);
 
             }
             else { throw new Exception("ouve um erro na validação na quantidade de pessoas especificadas pelo usuário"); }

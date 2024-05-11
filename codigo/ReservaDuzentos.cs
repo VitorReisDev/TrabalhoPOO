@@ -27,19 +27,18 @@ public override void reservar()
         this.EspacoDuzentos.SetDataReservada(dataReserva);
         Reserva.DataDaUltimaReserva = dataReserva;
         this.EspacoDuzentos.MostrarReservas();
-        Console.WriteLine("oiii");
+        Console.WriteLine("oiii");//teste
         cont++;
-        Console.WriteLine(cont);
+        Console.WriteLine(cont);//teste
     }
     else
-    {
-        
-        cont = 0;
+    {              
         dataReserva = ObterProximaData();
         this.EspacoDuzentos.SetDataReservada(dataReserva);
         Reserva.DataDaUltimaReserva = dataReserva;
         this.EspacoDuzentos.MostrarReservas();
-        Console.WriteLine("oi");
+        Console.WriteLine("oi");//teste
+        cont = 0;
     }
 }
 

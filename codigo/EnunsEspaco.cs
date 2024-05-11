@@ -19,7 +19,7 @@ namespace trabalhoPOOList
             Cinquenta = 50,
             Cem = 100,
             Duzentas = 200,
-            Quinhentas = 500
+            Quinhentos = 500
         }
     }
 }

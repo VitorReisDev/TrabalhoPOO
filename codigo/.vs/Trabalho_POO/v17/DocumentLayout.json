@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|c:\\users\\isabe\\onedrive\\\u00E1rea de trabalho\\puc\\poo\\trabalhopoo\\codigo\\gerenciadordecerimonias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|solutionrelative:gerenciadordecerimonias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|c:\\users\\isabe\\onedrive\\\u00E1rea de trabalho\\puc\\poo\\trabalhopoo\\codigo\\dadosdoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|solutionrelative:dadosdoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|c:\\users\\isabe\\onedrive\\\u00E1rea de trabalho\\puc\\poo\\trabalhopoo\\codigo\\reservacinquenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|solutionrelative:reservacinquenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|c:\\users\\isabe\\onedrive\\\u00E1rea de trabalho\\puc\\poo\\trabalhopoo\\codigo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|c:\\users\\isabe\\onedrive\\\u00E1rea de trabalho\\puc\\poo\\trabalhopoo\\codigo\\espacocem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|solutionrelative:espacocem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|c:\\users\\isabe\\onedrive\\\u00E1rea de trabalho\\puc\\poo\\trabalhopoo\\codigo\\espaco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|solutionrelative:espaco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|c:\\users\\isabe\\onedrive\\\u00E1rea de trabalho\\puc\\poo\\trabalhopoo\\codigo\\enunsespaco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|solutionrelative:enunsespaco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|c:\\users\\isabe\\onedrive\\\u00E1rea de trabalho\\puc\\poo\\trabalhopoo\\codigo\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|solutionrelative:reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|c:\\users\\isabe\\onedrive\\\u00E1rea de trabalho\\puc\\poo\\trabalhopoo\\codigo\\reservaduzentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|solutionrelative:reservaduzentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|c:\\users\\isabe\\onedrive\\\u00E1rea de trabalho\\puc\\poo\\trabalhopoo\\codigo\\espacoduzentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50F8A1B6-80D4-4A7C-A4CC-20CC09FA6EEB}|Trabalho_POO.csproj|solutionrelative:espacoduzentos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservaCinquenta.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\ReservaCinquenta.cs",
+              "RelativeDocumentMoniker": "ReservaCinquenta.cs",
+              "ToolTip": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\ReservaCinquenta.cs",
+              "RelativeToolTip": "ReservaCinquenta.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T22:19:29.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GerenciadorDeCerimonias.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\GerenciadorDeCerimonias.cs",
+              "RelativeDocumentMoniker": "GerenciadorDeCerimonias.cs",
+              "ToolTip": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\GerenciadorDeCerimonias.cs",
+              "RelativeToolTip": "GerenciadorDeCerimonias.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:48:05.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EspacoCem.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\EspacoCem.cs",
+              "RelativeDocumentMoniker": "EspacoCem.cs",
+              "ToolTip": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\EspacoCem.cs",
+              "RelativeToolTip": "EspacoCem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:48:03.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnunsEspaco.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\EnunsEspaco.cs",
+              "RelativeDocumentMoniker": "EnunsEspaco.cs",
+              "ToolTip": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\EnunsEspaco.cs",
+              "RelativeToolTip": "EnunsEspaco.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:47:52.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Espaco.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\Espaco.cs",
+              "RelativeDocumentMoniker": "Espaco.cs",
+              "ToolTip": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\Espaco.cs",
+              "RelativeToolTip": "Espaco.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:45:50.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DadosDoEvento.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\DadosDoEvento.cs",
+              "RelativeDocumentMoniker": "DadosDoEvento.cs",
+              "ToolTip": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\DadosDoEvento.cs",
+              "RelativeToolTip": "DadosDoEvento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAYwAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:44:25.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\Reserva.cs",
+              "RelativeDocumentMoniker": "Reserva.cs",
+              "ToolTip": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\Reserva.cs",
+              "RelativeToolTip": "Reserva.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwB4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:44:09.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReservaDuzentos.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\ReservaDuzentos.cs",
+              "RelativeDocumentMoniker": "ReservaDuzentos.cs",
+              "ToolTip": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\ReservaDuzentos.cs",
+              "RelativeToolTip": "ReservaDuzentos.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:43:17.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EspacoDuzentos.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\EspacoDuzentos.cs",
+              "RelativeDocumentMoniker": "EspacoDuzentos.cs",
+              "ToolTip": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\EspacoDuzentos.cs",
+              "RelativeToolTip": "EspacoDuzentos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T21:43:14.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\isabe\\OneDrive\\\u00C1rea de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwBQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T23:42:10.543Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

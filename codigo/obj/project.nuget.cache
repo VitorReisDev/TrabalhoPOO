@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "XpxvcZ4cyeIZsk3bywH+5f4k/NMkXjUJ4hJnOE6g/RnXwnSAh0CEjz3PBPGrvUf31pFXWL0hVANORlLHKgZqIA==",
+  "dgSpecHash": "l9rPRK1n7OrFVGPt+w5OlVX8uOFb7xBVOipYagCVPcCumBDiP/AE+JVzM11cb/N+1v0Q2XYROcH+OBsltTNZTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vitor\\Desktop\\Trabalho_POO\\Trabalho_POO.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\isabe\\OneDrive\\Área de Trabalho\\PUC\\POO\\TrabalhoPOO\\codigo\\Trabalho_POO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\isabe\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\isabe\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\isabe\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\isabe\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
   "logs": []
 }
